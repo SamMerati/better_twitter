@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create a tweet</h1>
+    
+        <label for="tweet">Tweet</label>
+        <br>
+        <input class="tweetPageInput" type="text" id="tweet" name="tweet" placeholder="Enter a Tweet"/>
+        <button class="storePageButton" id="submit" onclick="post()">tweet</button>
+        <p hidden id="successMessage">Tweet successful</p>
+        <p hidden id="failMessage">Tweet failed</p>
+    </div>
+    <script src="../js/tweet.js"></script>
+</body>
+</html>
